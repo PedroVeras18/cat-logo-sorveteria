@@ -1,0 +1,100 @@
+:root {
+    --gelo: #d4e4ef;
+    --branco: #ecedea;
+    --azulclaro: #6aabd2;
+    --azulescuro: #0a6082;
+    --rosa: #d84c72;
+    --whitesmoke: whitesmoke;
+    --marron: #432115;
+}
+
+*{
+    font-family: 'Montsserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--gelo);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--marron);
+    height: 4rem;
+    color: white;
+}
+
+.cabecalho ul a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.cabecalho ul a:hover{
+    cursor: pointer;
+    color: var(--gelo);
+}
+
+.container{
+    background-color: var(--branco);
+    width: 98.7vw;
+    height: 800px;
+}
+
+.container h1{
+    color: var(--rosa);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+.sorvetes{
+    margin-top: -10px;
+}
+
+.sorvetes .fila-1, .fila-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sorvete{
+    margin-top: 10px;
+}
+
+.sorvete:hover{
+    border: 1px solid var(--rosa);
+    cursor: pointer;
+ 
+}
+
+.sorvete h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: var(--rosa);
+    padding: 5px;
+}
+
+.sorvete h2:hover{
+    cursor: pointer;
+    background-color: var(--marron);
+    color: #ffffff;
+    transition: 300ms all;
+    transform: rotate(-2deg);
+}
+
+

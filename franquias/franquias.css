@@ -1,0 +1,126 @@
+:root {
+    --gelo: #d4e4ef;
+    --branco: #ecedea;
+    --azulclaro: #6aabd2;
+    --azulescuro: #0a6082;
+    --rosa: #d84c72;
+    --whitesmoke: whitesmoke;
+    --marron: #432115;
+}
+
+*{
+    font-family: 'Montsserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--gelo);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--marron);
+    height: 4rem;
+    color: white;
+}
+
+.cabecalho ul li{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.cabecalho ul li:hover{
+    cursor: pointer;
+}:root {
+    --gelo: #d4e4ef;
+    --branco: #ecedea;
+    --azulclaro: #6aabd2;
+    --azulescuro: #0a6082;
+    --rosa: #d84c72;
+    --whitesmoke: whitesmoke;
+    --marron: #432115;
+}
+
+*{
+    font-family: 'Montsserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--gelo);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--marron);
+    height: 4rem;
+    color: white;
+}
+
+.cabecalho ul a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho ul a:hover{
+    cursor: pointer;
+    color: var(--gelo);
+}
+
+.franquias{
+    background-color: var(--branco);
+    width: 100vw;
+    height: 900px;
+}
+
+.franquias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.franquia{
+    background-color: var(--rosa);
+    margin-top: 50px;
+    padding: 30px;
+    width: 50%;
+    border-radius: 30px;
+}
+
+.franquia:hover{
+    cursor: pointer;
+    background-color: var(--branco);
+    border: 3px solid var(--rosa);
+    color: rgb(0, 0, 0);
+    transform: rotate(-2deg);
+}
+
+

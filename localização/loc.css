@@ -1,0 +1,86 @@
+:root {
+    --gelo: #d4e4ef;
+    --branco: #ecedea;
+    --azulclaro: #6aabd2;
+    --azulescuro: #0a6082;
+    --rosa: #d84c72;
+    --whitesmoke: whitesmoke;
+    --marron: #432115;
+}
+
+*{
+    font-family: 'Montsserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--gelo);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--marron);
+    height: 4rem;
+    color: white;
+}
+
+.cabecalho ul a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho ul a:hover{
+    cursor: pointer;
+    color: var(--gelo);
+}
+
+.container{
+    width: 100vw;
+    height: 400px;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa h2{
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.caixa .city {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.caixa .rua {
+    text-align: center;
+    font-size: 20px;
+}
+
+.caixa{
+    background-color: var(--rosa);
+    color: white;
+    padding: 30px 110px;
+    border-radius: 60px;
+}
